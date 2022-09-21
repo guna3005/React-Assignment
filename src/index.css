@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #fbe3e3;
+}
+
+.form {
+  margin-top: 13%;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+}
+
+.input {
+  color : blue;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.centerfill {
+  margin-left: 21%;;
+}
+
+.searchbar {
+  border: 2px solid lightgrey;
+  margin-left: 40%;
+}
+
+.mypagination {
+  flex-direction: row;
+  justify-content: space-between ;
+  background-color: #ebe4e4;
+  box-shadow: 2px 5px 10px 5px black;
+  padding: 4px 4px 4px;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: red;
+}
+
+.mypagination selected {
+  background-color: blue;
+}
